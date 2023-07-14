@@ -72,4 +72,4 @@ def update_output(contents, filename):
     else:
         return '' ,fig
 
-app.run_server(debug=True)
+app.run_server(debug=False, host="0.0.0.0", port=8080)
